@@ -18,7 +18,7 @@ function ExpensesOverview() {
     <BottomTabs.Navigator
       screenOptions={{
         headerStyle: { backgroundColor: GlobalStyles.colors.primary500 },
-        headerTintColor: "#fff",
+        headerTintColor: "white",
         tabBarStyle: { backgroundColor: GlobalStyles.colors.primary500 },
         tabBarActiveTintColor: GlobalStyles.colors.accent500,
       }}
@@ -52,7 +52,7 @@ function ExpensesOverview() {
 export default function App() {
   return (
     <>
-      <StatusBar style="light" />
+      <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen
